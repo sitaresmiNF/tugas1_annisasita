@@ -9,6 +9,22 @@ public class tugas1
     System.out.println(" ");
     System.out.printf("Input Angka:");
     int N=s.nextInt();
+    for (i=1 ; i<=N ; i++)
+		{
+			System.out.print(+i) ;
+			if(i<N)
+			{
+				System.out.print(" x ");
+			}
+			else
+			{
+				System.out.print(" = ");
+			}
+			x=x*i;
+		}
+		System.out.print(+x) ;
+	}
+}
     
   }
   
